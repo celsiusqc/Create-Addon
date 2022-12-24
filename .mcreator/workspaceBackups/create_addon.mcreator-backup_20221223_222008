@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "BrassDrill",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_drill",
+      "path": "~/Tools"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.create_addon.brass_drill": "Brass Drill"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tools",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "create_addon",
+    "modName": "Create Addon",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.createaddon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

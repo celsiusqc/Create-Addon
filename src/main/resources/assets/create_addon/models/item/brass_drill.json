@@ -1,0 +1,8 @@
+{
+  "parent": "create_addon:custom/brass_portable_drill",
+  "textures": {
+    "0": "create_addon:blocks/brass_portable_drill",
+    "missing": "create_addon:blocks/brass_portable_drill",
+    "particle": "create_addon:items/brass_portable_drill"
+  }
+}

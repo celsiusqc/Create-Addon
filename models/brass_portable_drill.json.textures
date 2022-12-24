@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brass_portable_drill",
+        "missing": "brass_portable_drill"
+      },
+      "name": "default"
+    }
+  }
+}
