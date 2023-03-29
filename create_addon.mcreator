@@ -18,6 +18,7 @@
     {
       "name": "DrillRightClick",
       "type": "procedure",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_right_click",
@@ -52,6 +53,30 @@
         ]
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "JetPack",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/celsiusqc/createaddon/procedures/JetPackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],

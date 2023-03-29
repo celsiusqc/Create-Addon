@@ -20,16 +20,28 @@ public class DrillRightClickProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 400, 5, (false), (false)));
 			(itemstack).enchant(Enchantments.BLOCK_EFFICIENCY, 5);
 		} else {
-			{
-				Map<Enchantment, Integer> _enchantments = EnchantmentHelper.getEnchantments(itemstack);
-				if (_enchantments.containsKey(Enchantments.BLOCK_EFFICIENCY)) {
-					_enchantments.remove(Enchantments.BLOCK_EFFICIENCY);
-					EnchantmentHelper.setEnchantments(_enchantments, itemstack);
+			if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.BLOCK_EFFICIENCY, itemstack) != 0) {
+				{
+					Map<Enchantment, Integer> _enchantments = EnchantmentHelper.getEnchantments(itemstack);
+					if (_enchantments.containsKey(Enchantments.BLOCK_EFFICIENCY)) {
+						_enchantments.remove(Enchantments.BLOCK_EFFICIENCY);
+						EnchantmentHelper.setEnchantments(_enchantments, itemstack);
+					}
 				}
 			}
 		}
 		if (!(EnchantmentHelper.getItemEnchantmentLevel(Enchantments.VANISHING_CURSE, itemstack) != 0)) {
 			(itemstack).enchant(Enchantments.VANISHING_CURSE, 1);
+		} else {
+			if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.VANISHING_CURSE, itemstack) != 0) {
+				{
+					Map<Enchantment, Integer> _enchantments = EnchantmentHelper.getEnchantments(itemstack);
+					if (_enchantments.containsKey(Enchantments.VANISHING_CURSE)) {
+						_enchantments.remove(Enchantments.VANISHING_CURSE);
+						EnchantmentHelper.setEnchantments(_enchantments, itemstack);
+					}
+				}
+			}
 		}
 	}
 }
