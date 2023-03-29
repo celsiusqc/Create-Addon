@@ -1,0 +1,104 @@
+{
+  "mod_elements": [
+    {
+      "name": "BrassDrill",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brass_drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_addon/models/item/brass_drill.json",
+          "src/main/java/net/mcreator/createaddon/item/BrassDrillItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "DrillRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createaddon/procedures/DrillRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FanPoweredBrassChestplate",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_powered_brass_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createaddon/item/FanPoweredBrassChestplateItem.java",
+          "src/main/resources/assets/create_addon/models/item/fan_powered_brass_chestplate_chestplate.json"
+        ]
+      },
+      "path": "~/Armor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.create_addon.fan_powered_brass_chestplate_helmet": "Fan Powered Brass Chestplate Helmet",
+      "item.create_addon.fan_powered_brass_chestplate_chestplate": "Fan Powered Brass Chestplate Body",
+      "item.create_addon.fan_powered_brass_chestplate_leggings": "Fan Powered Brass Chestplate Leggings",
+      "item.create_addon.brass_drill": "Brass Drill",
+      "item.create_addon.fan_powered_brass_chestplate_boots": "Fan Powered Brass Chestplate Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "create_addon",
+    "modName": "Create Addon",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.createaddon",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

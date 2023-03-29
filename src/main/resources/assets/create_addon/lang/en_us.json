@@ -1,3 +1,7 @@
 {
-  "item.create_addon.brass_drill": "Brass Drill"
+  "item.create_addon.fan_powered_brass_chestplate_helmet": "Fan Powered Brass Chestplate Helmet",
+  "item.create_addon.fan_powered_brass_chestplate_chestplate": "Fan Powered Brass Chestplate",
+  "item.create_addon.fan_powered_brass_chestplate_leggings": "Fan Powered Brass Chestplate Leggings",
+  "item.create_addon.brass_drill": "Brass Drill",
+  "item.create_addon.fan_powered_brass_chestplate_boots": "Fan Powered Brass Chestplate Boots"
 }

@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="create_addon"
 version="1.0.0"
 displayName="Create Addon"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="celsiusqc"
 displayURL="https://mcreator.net"
-authors="Administrator, MCreator"
+authors="celsiusqc"
 
 [[dependencies.create_addon]]
     modId="minecraft"
